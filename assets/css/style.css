@@ -16,6 +16,10 @@ body {
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 
 hr {
     display: block;
@@ -607,6 +611,9 @@ hr {
 
     transition: transform .2s linear;
 }
+.price {
+    color: #95e1d3;
+}
 
 .card__img img {
     border-radius: 2px;
@@ -1109,7 +1116,8 @@ hr {
 
 .clients__text {
     font-size: 15px;
-    color: #999;
+    font-weight: 700;
+    color: #000;
 }
 
 .clients__text:before {
@@ -1396,7 +1404,7 @@ hr {
 
 .instagram__item img {
     display: block;
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -1423,6 +1431,14 @@ hr {
     color: #333;
     font-style: italic;
     font-weight: 300;
+}
+
+.tel {
+    color: #000;
+}
+.tel:hover {
+    font-weight: 700;
+   
 }
 
 .subscribe__input::placeholder {
@@ -1594,7 +1610,7 @@ hr {
 
     .instagram__item {
         width: 100px;
-        height: 100px;
+        height: auto;
         border-right: 1px solid white;
     }
 }
