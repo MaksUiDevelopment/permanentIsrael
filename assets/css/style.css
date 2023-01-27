@@ -78,6 +78,7 @@ hr {
 .ttu {
     text-transform: uppercase;
     font-size: 34px;
+    line-height: 20px;
 }
 
 .intro__title {
@@ -1434,11 +1435,14 @@ hr {
 }
 
 .tel {
-    color: #000;
+    color: #7A5EEB;
+
 }
 .tel:hover {
     font-weight: 700;
-   
+   font-size: 23px;
+   color: rgb(90, 10, 10);
+    transition: all .1s linear;
 }
 
 .subscribe__input::placeholder {
@@ -1902,4 +1906,9 @@ hr {
         width: 100%;
     }
 
+}
+.weigh-text {
+    font-weight: 700;
+    font-size: 20px;
+    color: #000;
 }
