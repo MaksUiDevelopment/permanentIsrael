@@ -561,7 +561,7 @@ hr {
     content: "";
     display: block;
     width: 60px;
-    height: 3px;
+    height: 3px; 
     margin: 30px auto;
 
     background-color: #f38181;
@@ -569,7 +569,7 @@ hr {
 
 .section__text {
     font-size: 15px;
-    color: #999;
+    color: rgb(35, 35, 35);
 }
 
 
@@ -1009,7 +1009,7 @@ hr {
 /* Works */
 .works {
     display: flex;
-     
+    height: auto;
 }
 
 .works__col {
@@ -1018,7 +1018,7 @@ hr {
 
 .works__item {
     position: relative;
-    height: 40%;
+    height: 500px;
     overflow: hidden;
     background: linear-gradient(to bottom, #7E71B1, #7A5EEB);
 }
@@ -1035,7 +1035,6 @@ hr {
     display: block;
     max-width: 100%;
     min-height: 100%;
-
     transition: opacity .2s linear;
 }
 .works__image img {
